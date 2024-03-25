@@ -8,7 +8,7 @@ const Navbar = () => {
   const pathname = usePathname();
 
   return (
-    <header className="h-20 mx-auto max-w-[1440px] px-[112px] flex items-center inset-0 fixed z-[999]">
+    <header className="h-20 mx-auto max-w-[1440px] px-[112px] flex items-center inset-0 fixed z-40">
       <motion.div
         className="w-full backdrop-blur-sm border rounded-3xl border-gray-300 px-8 py-1 flex items-center justify-between"
         whileHover={{ scale: 1.005, transition: { ease: "easeOut" } }}

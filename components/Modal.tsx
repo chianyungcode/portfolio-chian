@@ -7,6 +7,7 @@ import {
   DialogTrigger,
 } from "@/components/ui/dialog";
 import styles from "./Modal.module.css";
+import FormContact from "./form/FormContact";
 
 interface ModalProps {
   titleBtn: string;
@@ -17,11 +18,12 @@ interface ModalProps {
 const Modal = ({ titleBtn, titleModal, description }: ModalProps) => {
   return (
     <Dialog>
-      <DialogTrigger className={styles.bn5}>{titleBtn}</DialogTrigger>
+      <DialogTrigger className={`${styles.bn5}`}>{titleBtn}</DialogTrigger>
       <DialogContent className="sm:rounded-2xl">
         <DialogHeader>
-          <DialogTitle>{titleModal}</DialogTitle>
+          <DialogTitle className="text-4xl font-bold">{titleModal}</DialogTitle>
           <DialogDescription>{description}</DialogDescription>
+          <FormContact />
         </DialogHeader>
       </DialogContent>
     </Dialog>

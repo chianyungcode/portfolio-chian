@@ -18,8 +18,8 @@ const FooterCTA = () => {
 
         <Modal
           titleBtn="Start a project"
-          titleModal="Isi form dibawah"
-          description="Connect with me because of different"
+          titleModal="Tell what your need"
+          description="Explain what your need, let us solve your problem"
         />
 
         <hr className="border-gray-200 border-1 w-full" />
