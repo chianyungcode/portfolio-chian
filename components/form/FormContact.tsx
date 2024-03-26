@@ -65,16 +65,18 @@ const FormContact = () => {
           className="py-1 px-3 rounded-lg border border-gray-100 focus:ring-2 focus:ring-black focus:ring-offset-2 outline-none"
         />
       </div>
-      <button
-        type="submit"
-        className="flex gap-x-1 px-4 py-2 rounded-2xl bg-black text-white items-center justify-center overflow-hidden group"
-      >
-        Send
-        <Send
-          size={16}
-          className="group-hover:-translate-y-1/4 group-hover:translate-x-1 transition-all"
-        />
-      </button>
+      <div className="justify-end flex">
+        <button
+          type="submit"
+          className="flex gap-x-1 px-4 py-2 rounded-2xl bg-black text-white items-center justify-center overflow-hidden group "
+        >
+          Send
+          <Send
+            size={16}
+            className="group-hover:-translate-y-1/4 group-hover:translate-x-1 transition-all "
+          />
+        </button>
+      </div>
     </form>
   );
 };

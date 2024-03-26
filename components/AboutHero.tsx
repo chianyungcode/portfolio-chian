@@ -44,11 +44,15 @@ const AboutHero = () => {
                 <a href="https://linked.in" target="_blank" rel="noreferrer">
                   LinkedIn
                 </a>
-                <a href="https://facebook.com" target="_blank" rel="noreferrer">
-                  Facebook
+                <a
+                  href="https://instagram.com"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  Instagram
                 </a>
-                <a href="https://facebook.com" target="_blank" rel="noreferrer">
-                  Facebook
+                <a href="https://github.com" target="_blank" rel="noreferrer">
+                  GitHub
                 </a>
               </div>
             </div>
