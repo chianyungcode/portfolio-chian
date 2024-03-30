@@ -3,25 +3,28 @@
 import Link from "next/link";
 import { motion } from "framer-motion";
 import { usePathname } from "next/navigation";
+import { Menu } from "lucide-react";
 
 const Navbar = () => {
   const pathname = usePathname();
 
   return (
-    <header className="h-20 mx-auto max-w-[1440px] px-[112px] flex items-center inset-0 fixed z-40">
+    <header className="lg:h-20 lg:mx-auto lg:max-w-[1440px] lg:px-[112px] flex items-center lg:inset-0 h-[3.5rem] top-0 fixed z-4 px-4 py-2 w-full">
       <motion.div
-        className="w-full backdrop-blur-sm border rounded-3xl border-gray-300 px-8 py-1 flex items-center justify-between"
+        className="w-full backdrop-blur-sm border rounded-3xl border-gray-300 px-4 lg:px-8 lg:py-1 flex items-center justify-between h-full"
         whileHover={{ scale: 1.005, transition: { ease: "easeOut" } }}
         whileTap={{ scale: 1.01, transition: { ease: "easeOut" } }}
       >
-        <h3 className="font-semibold text-xl">
-          Chian Yung{" "}
-          <span className="text-gray-400 font-normal text-md ml-1">
+        <h3 className="font-semibold lg:text-xl text-base">
+          Chian Yung
+          <span className="text-gray-400 font-normal text-md ml-1 hidden lg:block">
             Software Engineer
-          </span>{" "}
+          </span>
         </h3>
 
-        <div className="p-2 flex gap-4 font-medium">
+        <Menu />
+
+        <div className="p-2 lg:flex gap-4 font-medium hidden ">
           <Link href="/" className={pathname === "/" ? "font-bold" : ""}>
             Home
           </Link>

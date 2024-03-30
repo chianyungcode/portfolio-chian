@@ -2,6 +2,7 @@ import { BsGithub, BsLinkedin, BsTwitterX } from "react-icons/bs";
 import { FaFacebook } from "react-icons/fa";
 import ButtonGlow from "./small-components/ButtonGlow";
 import Modal from "./Modal";
+import Link from "next/link";
 
 const FooterCTA = () => {
   return (
@@ -35,18 +36,30 @@ const FooterCTA = () => {
           </div>
           <div className="space-y-2">
             <div className="flex gap-x-4">
-              <div className="w-14 h-14 rounded-full border border-gray-200 flex items-center justify-center">
+              <Link
+                href="https://facebook.com"
+                className="w-14 h-14 rounded-full border border-gray-200 flex items-center justify-center"
+              >
                 <FaFacebook size={28} />
-              </div>
-              <div className="w-14 h-14 rounded-full border border-gray-200 flex items-center justify-center">
+              </Link>
+              <Link
+                href="https://github.com/chianyungcode"
+                className="w-14 h-14 rounded-full border border-gray-200 flex items-center justify-center"
+              >
                 <BsGithub size={28} />
-              </div>
-              <div className="w-14 h-14 rounded-full border border-gray-200 flex items-center justify-center">
+              </Link>
+              <Link
+                href="https://twitter.com"
+                className="w-14 h-14 rounded-full border border-gray-200 flex items-center justify-center"
+              >
                 <BsTwitterX size={28} />
-              </div>
-              <div className="w-14 h-14 rounded-full border border-gray-200 flex items-center justify-center">
+              </Link>
+              <Link
+                href="https://linked.in"
+                className="w-14 h-14 rounded-full border border-gray-200 flex items-center justify-center"
+              >
                 <BsLinkedin size={28} />
-              </div>
+              </Link>
             </div>
           </div>
         </div>
