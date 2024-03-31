@@ -9,8 +9,8 @@ const HomePage = () => {
   return (
     <>
       <Hero />
-      {/* <KeySelling />
-      <TechSection />
+      <KeySelling />
+      {/* <TechSection />
       <FooterCTA /> */}
     </>
   );
