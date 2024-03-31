@@ -6,7 +6,7 @@ import Link from "next/link";
 
 const FooterCTA = () => {
   return (
-    <footer className="max-w-[1440px] mx-auto px-[112px] pt-[96px] pb-12 space-y-12 mt-12 relative">
+    <footer className="max-w-[1440px] lg:block hidden mx-auto px-[112px] pt-[96px] pb-12 space-y-12 mt-12 relative">
       <div className="w-full absolute bottom-0 left-0 h-full overflow-hidden flex justify-center">
         <div className=" h-[914px] w-[914px] bg-lime-200 top-[400px] rounded-full relative blur-[12rem]" />
       </div>

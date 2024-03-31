@@ -38,7 +38,7 @@ const KeySelling = () => {
       </div>
       <div className="text-2xl font-medium space-y-2">
         <div className="grid grid-cols-4 gap-4">
-          <div className="col-span-4 rounded-[16px] gap-x-4 lg:rounded-3xl border border-gray-200 lg:px-[7.5rem] lg:py-24 px-4 py-4 flex items-center text-sm">
+          <div className="col-span-4 lg:col-span-3 rounded-[16px] gap-x-4 lg:rounded-3xl border border-gray-200 lg:px-[7.5rem] lg:py-24 px-4 py-4 flex items-center lg:text-2xl text-sm">
             Helping Startups, B2B services, small businesses and creatives with
             customized design solutions that include landing pages & website
             creation.

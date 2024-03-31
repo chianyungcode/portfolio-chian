@@ -4,7 +4,7 @@ import { FaSquareCheck } from "react-icons/fa6";
 
 const TechSection = () => {
   return (
-    <section className="max-w-[1440px] px-[112px] py-[96px] mx-auto space-y-12">
+    <section className="max-w-[1440px] lg:block hidden px-[112px] py-[96px] mx-auto space-y-12">
       <div className="grid grid-cols-4 gap-x-12">
         <div className="col-span-2 ">
           <h1 className="text-4xl font-semibold ">Apps I like using</h1>
