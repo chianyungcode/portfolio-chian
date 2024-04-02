@@ -103,3 +103,10 @@
     box-shadow: 0 0 0 8px rgba(217, 249, 157, 0.7);
   }
 }
+
+.card-post {
+  max-width: 400px;
+  padding: 1rem 2rem;
+  font-size: 14px;
+  border: 1px solid #000;
+}
