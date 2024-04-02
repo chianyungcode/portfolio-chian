@@ -6,7 +6,7 @@ import Link from "next/link";
 
 const FooterCTA = () => {
   return (
-    <footer className="max-w-[1440px] lg:block mx-auto lg:px-[112px] px-4 py-6 lg:pt-[96px] pb-12 space-y-12 mt-12 relative">
+    <footer className="max-w-[1440px] lg:block md:px-16 mx-auto lg:px-[112px] px-4 py-6 lg:pt-[96px] pb-12 space-y-12 mt-12 relative">
       <div className="w-full absolute bottom-0 left-0 h-full overflow-hidden flex justify-center">
         <div className=" h-[914px] w-[914px] bg-lime-200 top-[400px] rounded-full relative blur-[12rem]" />
       </div>
@@ -31,10 +31,13 @@ const FooterCTA = () => {
               href="mailto:chianyung5@gmail.com"
               className="text-gray-950 font-medium block"
             >
-              chianyung5@gmail.com
+              dummy@gmail.com
             </a>
           </div>
-          <div className="space-y-2">
+          <div className="space-y-4">
+            <h1 className="text-sm xl:text-base font-medium text-slate-400">
+              Follow
+            </h1>
             <div className="flex gap-x-4">
               <Link
                 href="https://facebook.com"

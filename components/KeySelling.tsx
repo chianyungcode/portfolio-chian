@@ -50,7 +50,7 @@ const KeySelling = () => {
           </div>
         </div>
         <div className="grid grid-cols-4 gap-4">
-          <div className="col-span-2 lg:text-2xl lg:h-max  md:col-span-3 lg:col-span-2 text-sm rounded-3xl px-3 py-3 border-2 border-gray-200 xl:px-[7.5rem] xl:py-24 flex items-center md:py-14 md:px-8 sm:py-12 sm:px-8 lg:px-[4rem]">
+          <div className="col-span-2 lg:text-2xl lg:h-max  md:col-span-3 lg:col-span-2 text-sm rounded-3xl  border-2 border-gray-200 xl:px-[7.5rem] xl:py-24 flex items-center md:py-14 md:px-8 lg:px-[4rem] sm:px-6 sm:py-6 py-4 px-4">
             A creative developer with a passion for design and development. From
             concept to launch, I am involved in every step of the process. User
             experience, visually striking design, engaging interactions and
@@ -69,13 +69,13 @@ const KeySelling = () => {
 
         <div className="grid grid-cols-3 gap-4">
           <div className="col-span-1 hidden lg:flex rounded-3xl border-2 border-gray-200 lg:px-[4rem] py-24 items-center ">
-            Build in faster development and zero code
+            Faster development and no boilerplate code
           </div>
           <div className="col-span-1 rounded-3xl hidden lg:flex border-2 border-gray-200 lg:px-[4rem] py-24">
-            Lorem ipsum dolor sit
+            Get better SEO and first page in Google
           </div>
           <div className="col-span-1 rounded-3xl hidden lg:flex border-2 border-gray-200 lg:px-[4rem] py-24">
-            Lorem ipsum dolor sit
+            Attract audience with good visual website
           </div>
         </div>
       </div>
