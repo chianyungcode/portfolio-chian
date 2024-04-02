@@ -39,43 +39,42 @@ const KeySelling = () => {
       </div>
       <div className="text-2xl font-medium space-y-2">
         <div className="grid grid-cols-4 gap-4">
-          <div className="col-span-4 lg:col-span-3 rounded-[16px]  lg:rounded-3xl border-2 border-gray-200 lg:px-[7.5rem] lg:py-24 px-4 py-4 flex items-center lg:text-2xl text-sm ">
+          <div className="col-span-4 lg:col-span-3 rounded-[16px] lg:rounded-3xl border-2 border-gray-200 xl:px-[5rem] xl:py-20 px-4 py-4 flex items-center lg:text-2xl text-sm sm:px-8 lg:px-[4rem] lg:py-14">
             <Rocket className="w-[50%] h-[50%] sm:hidden" />
             Helping Startups, B2B services, small businesses and creatives with
             customized design solutions that include landing pages & website
             creation.
           </div>
-          <div className="col-span-1 hidden lg:block rounded-3xl border-2 border-gray-200 px-16 py-24">
-            Lorem ipsum dolor sit
+          <div className="col-span-1 hidden lg:block rounded-3xl border-2 border-gray-200 px-16 py-24 lg:px-[2rem] lg:py-14 xl:px-[4rem] xl:py-2 xl:flex items-center">
+            Create and code at the same time
           </div>
         </div>
         <div className="grid grid-cols-4 gap-4">
-          <div className="col-span-2 lg:text-2xl lg:h-max sm:min-h-[328px] md:min-h-[] md:col-span-3 text-sm rounded-3xl px-3 py-3 border-2 border-gray-200 lg:px-[7.5rem] lg:py-24 flex items-center md:py-8">
+          <div className="col-span-2 lg:text-2xl lg:h-max  md:col-span-3 lg:col-span-2 text-sm rounded-3xl px-3 py-3 border-2 border-gray-200 xl:px-[7.5rem] xl:py-24 flex items-center md:py-14 md:px-8 sm:py-12 sm:px-8 lg:px-[4rem]">
             A creative developer with a passion for design and development. From
             concept to launch, I am involved in every step of the process. User
             experience, visually striking design, engaging interactions and
             impeccable typography are my top priorities.
           </div>
 
-          <div className="flex lg:flex-row flex-col md:col-span-1 lg:col-span-2 col-span-2 gap-y-2 gap-4">
-            <div className="col-span-1 lg:text-4xl text-xl rounded-3xl grow border-2 border-gray-200 lg:px-16 lg:py-24 flex items-center text-center justify-center ">
+          <div className="flex lg:flex-col flex-col md:flex-col md:col-span-1 lg:col-span-2 col-span-2 gap-y-2 gap-4">
+            <div className="col-span-1 lg:text-4xl text-xl  rounded-3xl grow border-2 border-gray-200 lg:px-16 lg:py-14 flex items-center text-center justify-center ">
               150+ Project
             </div>
-            <div className="col-span-1 lg:text-4xl text-xl rounded-3xl grow border-2 border-gray-200 lg:px-16 lg:py-24 flex items-center text-center justify-center">
+            <div className="col-span-1 lg:text-4xl text-xl  rounded-3xl grow border-2 border-gray-200 lg:px-16 lg:py-14 flex items-center text-center justify-center">
               41+ Clients
             </div>
           </div>
         </div>
 
         <div className="grid grid-cols-3 gap-4">
-          <div className="col-span-1 hidden lg:flex rounded-3xl border-2 border-gray-200 px-[7.5rem] py-24 items-center ">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam,
-            aliquid.
+          <div className="col-span-1 hidden lg:flex rounded-3xl border-2 border-gray-200 lg:px-[4rem] py-24 items-center ">
+            Build in faster development and zero code
           </div>
-          <div className="col-span-1 rounded-3xl hidden lg:flex border-2 border-gray-200 px-16 py-24">
+          <div className="col-span-1 rounded-3xl hidden lg:flex border-2 border-gray-200 lg:px-[4rem] py-24">
             Lorem ipsum dolor sit
           </div>
-          <div className="col-span-1 rounded-3xl hidden lg:flex border-2 border-gray-200 px-16 py-24">
+          <div className="col-span-1 rounded-3xl hidden lg:flex border-2 border-gray-200 lg:px-[4rem] py-24">
             Lorem ipsum dolor sit
           </div>
         </div>
