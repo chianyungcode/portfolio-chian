@@ -1,9 +1,9 @@
 "use client";
 
 import Link from "next/link";
-import { motion } from "framer-motion";
 import { usePathname } from "next/navigation";
 import { Menu } from "lucide-react";
+import { navLinks } from "@/constant/navbar";
 
 const Navbar = () => {
   const pathname = usePathname();
@@ -19,27 +19,15 @@ const Navbar = () => {
         </h3>
         <Menu className="lg:hidden block" />
         <div className="p-2 lg:flex gap-4 font-medium hidden ">
-          <Link href="/" className={pathname === "/" ? "font-bold" : ""}>
-            Home
-          </Link>
-          <Link
-            href="/about"
-            className={pathname === "/about" ? "font-bold" : ""}
-          >
-            About
-          </Link>
-          <Link
-            href="/posts"
-            className={pathname === "/posts" ? "font-bold" : ""}
-          >
-            Posts
-          </Link>
-          <Link
-            href="/profile"
-            className={pathname === "/profile" ? "font-bold" : ""}
-          >
-            Profile
-          </Link>
+          {navLinks.map((link) => (
+            <Link
+              href={link.href}
+              key={link.title}
+              className={pathname === `${link.href}` ? "font-bold" : ""}
+            >
+              {link.title}
+            </Link>
+          ))}
         </div>
       </div>
     </header>
