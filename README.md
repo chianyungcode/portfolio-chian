@@ -5,9 +5,8 @@ Hi this is a porfolio website of Chian Yung, currently i work as a business owne
 ## Links
 
 - Figma File: [Figma File](https://www.figma.com/file/JqBmb3kgeAh9zmcWbHQwer/Portfolio?type=design&node-id=2%3A242&mode=design&t=admgQTwAmpKIiaII-1)
-
-- Github Repo:
-- Website Url:
+- Github Repo: [Portfolio Chian](https://github.com/chianyungcode/portfolio-chian)
+- Website Url: [chianyung.dev](https://chianyung.dev)
 
 ## Screenshots
 
