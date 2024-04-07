@@ -36,7 +36,7 @@ export const jobExperience: jobType[] = [
   },
   {
     title: "Business Owner",
-    company: "WEEZY",
+    company: "",
     location: "Subang, Indonesia",
     startDate: "June 2019",
     endDate: "Present",
