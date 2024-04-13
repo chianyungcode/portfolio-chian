@@ -19,17 +19,17 @@ const AboutHero = () => {
           </div>
           <div className="col-span-2 grid gap-x-8 xl:col-span-6 xl:grid-cols-6">
             <div className="space-y-2 xl:col-span-4">
-              <h3 className="text-base font-semibold xl:text-xl">
+              <h3 className=" text-base font-semibold xl:text-xl">
                 A few words to myself
               </h3>
-              <p className="text-sm font-normal text-gray-400 xl:text-lg">
+              <p className="text-justify text-sm font-normal text-gray-400 xl:text-lg">
                 I am a software engineer who loves to build things. I am
                 passionate about web technologies and I am always looking for
                 new challenges. I am a big fan of open source and I love to
                 contribute to the community. I am also a big fan of the JAMstack
                 and I love to build things with it.
               </p>
-              <p className="text-sm font-normal text-gray-400 xl:text-lg">
+              <p className="text-justify text-sm font-normal text-gray-400 xl:text-lg">
                 I am a software engineer who loves to build things. I am
                 passionate about web technologies and I am always looking for
                 new challenges. I am a big fan of open source and I love to
@@ -96,7 +96,7 @@ const AboutHero = () => {
                         {job.endDate}
                       </span>
                     </p>
-                    <p className="text-sm font-normal text-gray-400">
+                    <p className="text-justify text-sm font-normal text-gray-400 xl:text-lg">
                       {job.description}
                     </p>
                   </div>

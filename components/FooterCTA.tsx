@@ -6,13 +6,13 @@ import Link from "next/link";
 
 const FooterCTA = () => {
   return (
-    <footer className="max-w-[1440px] lg:block md:px-16 mx-auto lg:px-[112px] px-4 py-6 lg:pt-[96px] pb-12 space-y-12 mt-12 relative">
-      <div className="w-full absolute bottom-0 left-0 h-full overflow-hidden flex justify-center">
-        <div className=" h-[914px] w-[914px] bg-lime-200 top-[400px] rounded-full relative blur-[12rem]" />
+    <footer className="relative mx-auto mt-12 max-w-[1440px] space-y-12 px-4 py-6 pb-12 md:px-16 lg:block lg:px-[112px] lg:pt-[96px]">
+      <div className="absolute bottom-0 left-0 flex h-full w-full justify-center overflow-hidden">
+        <div className=" relative top-[400px] h-[914px] w-[914px] rounded-full bg-lime-200 blur-[12rem]" />
       </div>
       {/* <div className="rounded-[3.75rem] border-2 border-gray-200 flex items-start bg-gradient-to-tl  from-[#fff] backdrop-blur-lg from-50% to-[#ffff] to-0% h-96"></div> */}
-      <div className="lg:rounded-[3.75rem] rounded-[2rem] border-2 border-gray-200 flex items-start bg-transparent backdrop-blur-lg z-[10] bg-gradient-to-t from-white from-2% to-transparent lg:p-[7rem] py-[44px] px-[36px] flex-col lg:gap-y-12 gap-y-8">
-        <h1 className="font-semibold lg:text-6xl max-w-4xl text-xl">
+      <div className="from-2% z-[10] flex flex-col items-start gap-y-8 rounded-[2rem] border-2 border-gray-200 bg-transparent bg-gradient-to-t from-white to-transparent px-[36px] py-[44px] backdrop-blur-lg lg:gap-y-12 lg:rounded-[3.75rem] lg:p-[7rem]">
+        <h1 className="max-w-4xl text-xl font-semibold lg:text-6xl">
           Ready to grow your business through empathic visual style? Let&apos;s
           make it happen
         </h1>
@@ -23,43 +23,43 @@ const FooterCTA = () => {
           description="Explain what your need, let us solve your problem"
         />
 
-        <hr className="border-gray-200 border-1 w-full" />
-        <div className="flex w-full flex-row justify-between items-start">
-          <div className="space-y-2 lg:block hidden">
-            <p className="text-slate-400 font-medium block">Connect</p>
+        <hr className="border-1 w-full border-gray-200" />
+        <div className="flex w-full flex-row items-start justify-between">
+          <div className="hidden space-y-2 lg:block">
+            <p className="block font-medium text-slate-400">Connect</p>
             <a
               href="mailto:chianyung5@gmail.com"
-              className="text-gray-950 font-medium block"
+              className="block font-medium text-gray-950"
             >
               dummy@gmail.com
             </a>
           </div>
           <div className="space-y-4">
-            <h1 className="text-sm xl:text-base font-medium text-slate-400">
+            <h1 className="text-sm font-medium text-slate-400 xl:text-base">
               Follow
             </h1>
             <div className="flex gap-x-4">
               <Link
                 href="https://facebook.com"
-                className="lg:w-14 lg:h-14 h-12 w-12 rounded-full border border-gray-200 flex items-center justify-center"
+                className="flex h-12 w-12 items-center justify-center rounded-full border border-gray-200 lg:h-14 lg:w-14"
               >
                 <FaFacebook size={28} />
               </Link>
               <Link
                 href="https://github.com/chianyungcode"
-                className="lg:w-14 lg:h-14 h-12 w-12 rounded-full border border-gray-200 flex items-center justify-center"
+                className="flex h-12 w-12 items-center justify-center rounded-full border border-gray-200 lg:h-14 lg:w-14"
               >
                 <BsGithub size={28} />
               </Link>
               <Link
                 href="https://twitter.com"
-                className="lg:w-14 lg:h-14 h-12 w-12 rounded-full border border-gray-200 flex items-center justify-center"
+                className="flex h-12 w-12 items-center justify-center rounded-full border border-gray-200 lg:h-14 lg:w-14"
               >
                 <BsTwitterX size={28} />
               </Link>
               <Link
                 href="https://linked.in"
-                className="lg:w-14 lg:h-14 h-12 w-12 rounded-full border border-gray-200 flex items-center justify-center"
+                className="flex h-12 w-12 items-center justify-center rounded-full border border-gray-200 lg:h-14 lg:w-14"
               >
                 <BsLinkedin size={28} />
               </Link>

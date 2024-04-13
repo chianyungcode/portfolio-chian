@@ -23,7 +23,7 @@ const Navbar = () => {
     <header className="fixed top-0 z-40 flex h-fit w-full items-center px-4 py-2 md:px-16 lg:inset-0 lg:mx-auto lg:h-20 lg:max-w-[1440px] lg:px-[112px]">
       <div
         className={cn(
-          "flex w-full flex-col justify-center rounded-3xl border border-gray-300 px-4 py-1 backdrop-blur-sm transition-height ease-out lg:h-fit lg:flex-row lg:px-8 lg:py-1",
+          "flex w-full flex-col justify-center rounded-3xl border border-gray-300 px-4 py-1 backdrop-blur-sm transition-height ease-out lg:h-fit lg:flex-row lg:px-8 lg:py-1 ",
           openMobileNavbar ? "h-fit rounded-2xl" : "",
         )}
       >
@@ -39,30 +39,7 @@ const Navbar = () => {
             className="block lg:hidden"
             onClick={() => setOpenMobileNavbar(!openMobileNavbar)}
           />
-        </div>
-
-        <div
-          className={cn(
-            "mt-3 flex flex-col items-center gap-y-1 text-sm xl:hidden",
-            openMobileNavbar ? "sm:block" : "hidden",
-          )}
-        >
-          {navLinks.map((link) => (
-            <Link
-              href={link.href}
-              key={link.title}
-              className={pathname === `${link.href}` ? "font-bold" : ""}
-            >
-              {link.title}
-            </Link>
-          ))}
-        </div>
-
-        {/* <Popover>
-          <PopoverTrigger>
-            <Menu className="lg:hidden block" />
-          </PopoverTrigger>
-          <PopoverContent className="flex flex-col w-fit rounded-2xl">
+          <div className="hidden gap-4 p-2 font-medium lg:flex ">
             {navLinks.map((link) => (
               <Link
                 href={link.href}
@@ -72,10 +49,15 @@ const Navbar = () => {
                 {link.title}
               </Link>
             ))}
-          </PopoverContent>
-        </Popover> */}
+          </div>
+        </div>
 
-        <div className="hidden gap-4 p-2 font-medium lg:flex ">
+        <div
+          className={cn(
+            "mt-3 flex flex-col items-center gap-y-1 text-sm xl:hidden",
+            openMobileNavbar ? "sm:block" : "hidden",
+          )}
+        >
           {navLinks.map((link) => (
             <Link
               href={link.href}
