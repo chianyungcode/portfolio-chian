@@ -110,3 +110,21 @@
   font-size: 14px;
   border: 1px solid #000;
 }
+
+.productive-bar {
+  padding: 0.25rem .75rem;
+  border: 1px solid black;
+  display: inline-flex;
+  column-gap: .25rem;
+  border-radius: 1rem;
+  align-items: center;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.gradient-line{
+  width: 4px;
+  height: 12px;
+  background: linear-gradient(90deg, #FFECD2, #FCB69F);
+  border-radius: 5px;
+}

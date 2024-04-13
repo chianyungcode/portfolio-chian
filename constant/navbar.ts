@@ -8,7 +8,7 @@ export const navLinks = [
     href: "/about",
   },
   {
-    title: "Products",
+    title: "Notion Template",
     href: "/notion-template",
   },
 ] as const;
