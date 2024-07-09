@@ -6,7 +6,7 @@ import { NextResponse } from "next/server";
 
 const prisma = new PrismaClient();
 
-export async function POST(req: Request, res: Response) {
+export async function POST(req: Request) {
   const request = (await req.json()) as ContactFormInput;
 
   const validatedData = Validator.validateContactMessage(
@@ -28,5 +28,9 @@ export async function POST(req: Request, res: Response) {
     });
   } catch (error) {
     console.error("ERROR FROM /api/contact-form", error);
+    return NextResponse.json(
+      { error: "Internal Server Error" },
+      { status: 500 },
+    );
   }
 }
