@@ -14,7 +14,7 @@ const Hero = () => {
         </div>
         <div className="space-y-2">
           <h1 className="text-3xl font-bold lg:text-6xl">Software Engineer</h1>
-          <p className="max-w-xl text-sm">
+          <p className="text-md max-w-xl">
             I am a software engineer with a passion for creating innovative
             solutions and a deep understanding of the latest technologies in the
             industry.
