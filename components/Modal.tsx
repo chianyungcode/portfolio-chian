@@ -21,11 +21,11 @@ const Modal = ({ titleBtn, titleModal, description }: ModalProps) => {
       <DialogTrigger className={`${styles.bn5}`}>{titleBtn}</DialogTrigger>
       <DialogContent className="lg:rounded-2xl xl:max-w-4xl xl:px-20 xl:py-20 ">
         <DialogHeader>
-          <DialogTitle className="lg:text-4xl font-bold">
+          <DialogTitle className="font-bold lg:text-4xl">
             {titleModal}
           </DialogTitle>
           <DialogDescription>{description}</DialogDescription>
-          <FormContact />
+          {/* <FormContact /> */}
         </DialogHeader>
       </DialogContent>
     </Dialog>
