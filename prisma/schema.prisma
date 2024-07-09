@@ -13,4 +13,6 @@ model ContactForm {
   email   String
   name    String
   message String
+
+  @@map("contact_form")
 }
